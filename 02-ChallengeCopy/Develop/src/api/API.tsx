@@ -21,7 +21,7 @@ export interface GithubUser {
   company?: string;
   location?: string;
   email?: string | null;
-  bio?: string | null; // Add bio as an optional field
+  bio?: string | null; 
 }
 const searchGithub = async (): Promise<GithubUser[]> => {
   try {
