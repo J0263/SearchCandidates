@@ -1,0 +1,90 @@
+src/pages/CandidateSearch.css
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0a0a23;
+    margin: 0;
+  }
+  
+  .candidate-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    background-color: #1f1f2e;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #4a90e2;
+  }
+  
+  .name {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .location, .email, .company {
+    font-size: 1em;
+    color: #d1d1e0;
+    margin: 5px 0;
+  }
+  
+  .profile-link {
+    font-size: 1em;
+    color: #4a90e2;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .profile-link:hover {
+    text-decoration: underline;
+  }
+  
+  .bio {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #d1d1e0;
+    margin-top: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  
+  .reject-button, .save-button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .reject-button:hover, .save-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .reject-button {
+    background-color: #ff4d4f;
+  }
+  
+  .save-button {
+    background-color: #52c41a;
+  }
